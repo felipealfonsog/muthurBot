@@ -6,8 +6,8 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "NHgyY5V7",
-                "RH7f9lo2"
+                "5OmE7wit",
+                "djrGawph"
             ]
         },
         "command": {
@@ -16,13 +16,13 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "QIzuuBaX",
-                "HE8Bqh81",
-                "xd1eeuLj",
-                "KpIYF3qi",
-                "OZjQMc1b",
-                "0PD2ZnBA",
-                "JftC37nr"
+                "8EhYBehO",
+                "sGF72pKY",
+                "yn0y7G8l",
+                "rJ6WFb3L",
+                "RrtR4h2p",
+                "BusYDyly",
+                "VmrV6KGO"
             ]
         },
         "selfdestruct": {
@@ -31,13 +31,13 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "OSeW6QMq",
-                "my1TVXw4"
+                "GZ64VZ5W",
+                "sLrPGDj6"
             ]
         }
     },
     "gambits": {
-        "NHgyY5V7": {
+        "5OmE7wit": {
             "trigger": {
                 "flags": {
                     "order": "ordered"
@@ -48,15 +48,15 @@
                 "clean": "decode transmission"
             },
             "replies": [
-                "oFBY6Ert",
-                "hF7AkbCH",
-                "LqRj1pt7"
+                "jVfBTom7",
+                "LaAnqOtQ",
+                "W7zyPWiz"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "random"
         },
-        "RH7f9lo2": {
+        "djrGawph": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -65,13 +65,13 @@
                 "clean": "(?=^|\\s)\\s*(when|what time)(?=\\s|$)\\s*is the sun coming up"
             },
             "replies": [
-                "XUSG8cor"
+                "lYdY3aJR"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "random"
         },
-        "QIzuuBaX": {
+        "8EhYBehO": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -80,28 +80,28 @@
                 "clean": "access code\\s*((?:[^\\s]+\\s+){0,0}(?:[^\\s]+))\\s*"
             },
             "replies": [
-                "buv5CFW0"
+                "g4hAYYFg"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "command"
         },
-        "HE8Bqh81": {
+        "sGF72pKY": {
             "trigger": {
                 "flags": {},
                 "filter": null,
                 "question": false,
                 "raw": "what is my [god damn] (access code|key)",
-                "clean": "what is my(?:(?=^|\\s)\\s*(?:god damn)(?=\\s|$)\\s*)?(?=^|\\s)\\s*(access code|key)(?=\\s|$)\\s*"
+                "clean": "what is my(?:(?:\\s|\\b)+(?:god damn)(?:\\s|\\b)+|(?:\\s|\\b)+)(?=^|\\s)\\s*(access code|key)(?=\\s|$)\\s*"
             },
             "replies": [
-                "I4u32Rti"
+                "i6iGYa7o"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "command"
         },
-        "xd1eeuLj": {
+        "yn0y7G8l": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -110,13 +110,13 @@
                 "clean": "request clarification on science inability to neutralize alien"
             },
             "replies": [
-                "ncrpHDnp"
+                "jVLNjaDM"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "command"
         },
-        "KpIYF3qi": {
+        "rJ6WFb3L": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -125,15 +125,15 @@
                 "clean": "request enhancement"
             },
             "replies": [
-                "NVXsROXn"
+                "2UaeDyVS"
             ],
             "conditional": null,
             "conversation": [
-                "ncrpHDnp"
+                "jVLNjaDM"
             ],
             "topic": "command"
         },
-        "OZjQMc1b": {
+        "RrtR4h2p": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -142,15 +142,15 @@
                 "clean": "emergency command override 100375"
             },
             "replies": [
-                "Ku2OW053"
+                "3qziaZsI"
             ],
             "conditional": null,
             "conversation": [
-                "NVXsROXn"
+                "2UaeDyVS"
             ],
             "topic": "command"
         },
-        "0PD2ZnBA": {
+        "BusYDyly": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -159,15 +159,15 @@
                 "clean": "what is special order 937"
             },
             "replies": [
-                "6BE8fXIM"
+                "0H4x6SyH"
             ],
             "conditional": null,
             "conversation": [
-                "Ku2OW053"
+                "3qziaZsI"
             ],
             "topic": "command"
         },
-        "JftC37nr": {
+        "VmrV6KGO": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -176,15 +176,15 @@
                 "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
             },
             "replies": [
-                "e4alV1UU"
+                "1ijorHir"
             ],
             "conditional": null,
             "conversation": [
-                "NVXsROXn"
+                "2UaeDyVS"
             ],
             "topic": "command"
         },
-        "OSeW6QMq": {
+        "GZ64VZ5W": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -193,13 +193,13 @@
                 "clean": "set timer\\s*((?:[^\\s]+\\s+){0,0}(?:[^\\s]+))\\s*"
             },
             "replies": [
-                "lvLV6Ip7"
+                "27ff8jS5"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "selfdestruct"
         },
-        "my1TVXw4": {
+        "sLrPGDj6": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -208,7 +208,7 @@
                 "clean": "I have turned all the cooling units back on"
             },
             "replies": [
-                "BAALJwBq"
+                "VEOjI1dy"
             ],
             "conditional": null,
             "conversation": null,
@@ -216,67 +216,67 @@
         }
     },
     "replies": {
-        "oFBY6Ert": {
+        "jVfBTom7": {
             "string": "UNIDENTIFIED.",
             "filter": null,
             "keep": false
         },
-        "hF7AkbCH": {
+        "LaAnqOtQ": {
             "string": "NOT A LANGUAGE.",
             "filter": null,
             "keep": false
         },
-        "LqRj1pt7": {
+        "W7zyPWiz": {
             "string": "INITIAL READINGS INDICATE THAT COMMUNICATION IS A WARNING",
             "filter": null,
             "keep": false
         },
-        "XUSG8cor": {
+        "lYdY3aJR": {
             "string": "^getSunrise()",
             "filter": null,
             "keep": false
         },
-        "buv5CFW0": {
+        "g4hAYYFg": {
             "string": "COMMAND PRIORITY ACCESS ONLY. YOUR ACCESS CODE HAS BEEN AUTHORIZED. ^save(\"accesscode\",<cap>)",
             "filter": null,
             "keep": false
         },
-        "I4u32Rti": {
+        "i6iGYa7o": {
             "string": "^accessCode()",
             "filter": null,
             "keep": "keep"
         },
-        "ncrpHDnp": {
+        "jVLNjaDM": {
             "string": "UNABLE TO CLARIFY",
             "filter": null,
             "keep": false
         },
-        "NVXsROXn": {
+        "2UaeDyVS": {
             "string": "NO FURTHER ENHANCEMENT SPECIAL ORDER 937 SCIENCE OFFICER EYES ONLY",
             "filter": null,
             "keep": false
         },
-        "Ku2OW053": {
+        "3qziaZsI": {
             "string": "ACKNOWLEDGED",
             "filter": null,
             "keep": false
         },
-        "6BE8fXIM": {
+        "0H4x6SyH": {
             "string": "NOSTROMO REROUTED TO INVESTIGATE LIFE FORM\\nINVESTIGATE LIFE FORM. GATHER SPECIMEN.\\nPRIORITY ONE\\nINSURE RETURN OF ORGANISM FOR ANALYSIS\\nALL OTHER CONSIDERATIONS SECONDARY\\nCREW EXPENDABLE",
             "filter": null,
             "keep": false
         },
-        "e4alV1UU": {
+        "1ijorHir": {
             "string": "COMMAND NOT RECOGNIZED",
             "filter": null,
             "keep": false
         },
-        "lvLV6Ip7": {
+        "27ff8jS5": {
             "string": "^setDestruct(<cap>)",
             "filter": null,
             "keep": false
         },
-        "BAALJwBq": {
+        "VEOjI1dy": {
             "string": "TOO LATE FOR REMEDIAL ACTION. THE CORE HAS BEGUN TO MELT.",
             "filter": null,
             "keep": false
