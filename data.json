@@ -1,0 +1,289 @@
+{
+    "topics": {
+        "random": {
+            "name": "random",
+            "flags": {},
+            "keywords": [],
+            "filter": null,
+            "gambits": [
+                "NHgyY5V7",
+                "RH7f9lo2"
+            ]
+        },
+        "command": {
+            "name": "command",
+            "flags": {},
+            "keywords": [],
+            "filter": null,
+            "gambits": [
+                "QIzuuBaX",
+                "HE8Bqh81",
+                "xd1eeuLj",
+                "KpIYF3qi",
+                "OZjQMc1b",
+                "0PD2ZnBA",
+                "JftC37nr"
+            ]
+        },
+        "selfdestruct": {
+            "name": "selfdestruct",
+            "flags": {},
+            "keywords": [],
+            "filter": null,
+            "gambits": [
+                "OSeW6QMq",
+                "my1TVXw4"
+            ]
+        }
+    },
+    "gambits": {
+        "NHgyY5V7": {
+            "trigger": {
+                "flags": {
+                    "order": "ordered"
+                },
+                "filter": null,
+                "question": false,
+                "raw": "decode transmission",
+                "clean": "decode transmission"
+            },
+            "replies": [
+                "oFBY6Ert",
+                "hF7AkbCH",
+                "LqRj1pt7"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "RH7f9lo2": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "(when|what time) is the sun coming up",
+                "clean": "(?=^|\\s)\\s*(when|what time)(?=\\s|$)\\s*is the sun coming up"
+            },
+            "replies": [
+                "XUSG8cor"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "QIzuuBaX": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "access code *1",
+                "clean": "access code\\s*((?:[^\\s]+\\s+){0,0}(?:[^\\s]+))\\s*"
+            },
+            "replies": [
+                "buv5CFW0"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "command"
+        },
+        "HE8Bqh81": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "what is my [god damn] (access code|key)",
+                "clean": "what is my(?:(?=^|\\s)\\s*(?:god damn)(?=\\s|$)\\s*)?(?=^|\\s)\\s*(access code|key)(?=\\s|$)\\s*"
+            },
+            "replies": [
+                "I4u32Rti"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "command"
+        },
+        "xd1eeuLj": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "request clarification on science inability to neutralize alien",
+                "clean": "request clarification on science inability to neutralize alien"
+            },
+            "replies": [
+                "ncrpHDnp"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "command"
+        },
+        "KpIYF3qi": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "request enhancement",
+                "clean": "request enhancement"
+            },
+            "replies": [
+                "NVXsROXn"
+            ],
+            "conditional": null,
+            "conversation": [
+                "ncrpHDnp"
+            ],
+            "topic": "command"
+        },
+        "OZjQMc1b": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "emergency command override 100375",
+                "clean": "emergency command override 100375"
+            },
+            "replies": [
+                "Ku2OW053"
+            ],
+            "conditional": null,
+            "conversation": [
+                "NVXsROXn"
+            ],
+            "topic": "command"
+        },
+        "0PD2ZnBA": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "what is special order 937",
+                "clean": "what is special order 937"
+            },
+            "replies": [
+                "6BE8fXIM"
+            ],
+            "conditional": null,
+            "conversation": [
+                "Ku2OW053"
+            ],
+            "topic": "command"
+        },
+        "JftC37nr": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "*",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
+            },
+            "replies": [
+                "e4alV1UU"
+            ],
+            "conditional": null,
+            "conversation": [
+                "NVXsROXn"
+            ],
+            "topic": "command"
+        },
+        "OSeW6QMq": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "set timer *1",
+                "clean": "set timer\\s*((?:[^\\s]+\\s+){0,0}(?:[^\\s]+))\\s*"
+            },
+            "replies": [
+                "lvLV6Ip7"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "selfdestruct"
+        },
+        "my1TVXw4": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "I've turned all the cooling units back on",
+                "clean": "I have turned all the cooling units back on"
+            },
+            "replies": [
+                "BAALJwBq"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "selfdestruct"
+        }
+    },
+    "replies": {
+        "oFBY6Ert": {
+            "string": "UNIDENTIFIED.",
+            "filter": null,
+            "keep": false
+        },
+        "hF7AkbCH": {
+            "string": "NOT A LANGUAGE.",
+            "filter": null,
+            "keep": false
+        },
+        "LqRj1pt7": {
+            "string": "INITIAL READINGS INDICATE THAT COMMUNICATION IS A WARNING",
+            "filter": null,
+            "keep": false
+        },
+        "XUSG8cor": {
+            "string": "^getSunrise()",
+            "filter": null,
+            "keep": false
+        },
+        "buv5CFW0": {
+            "string": "COMMAND PRIORITY ACCESS ONLY. YOUR ACCESS CODE HAS BEEN AUTHORIZED. ^save(\"accesscode\",<cap>)",
+            "filter": null,
+            "keep": false
+        },
+        "I4u32Rti": {
+            "string": "^accessCode()",
+            "filter": null,
+            "keep": "keep"
+        },
+        "ncrpHDnp": {
+            "string": "UNABLE TO CLARIFY",
+            "filter": null,
+            "keep": false
+        },
+        "NVXsROXn": {
+            "string": "NO FURTHER ENHANCEMENT SPECIAL ORDER 937 SCIENCE OFFICER EYES ONLY",
+            "filter": null,
+            "keep": false
+        },
+        "Ku2OW053": {
+            "string": "ACKNOWLEDGED",
+            "filter": null,
+            "keep": false
+        },
+        "6BE8fXIM": {
+            "string": "NOSTROMO REROUTED TO INVESTIGATE LIFE FORM\\nINVESTIGATE LIFE FORM. GATHER SPECIMEN.\\nPRIORITY ONE\\nINSURE RETURN OF ORGANISM FOR ANALYSIS\\nALL OTHER CONSIDERATIONS SECONDARY\\nCREW EXPENDABLE",
+            "filter": null,
+            "keep": false
+        },
+        "e4alV1UU": {
+            "string": "COMMAND NOT RECOGNIZED",
+            "filter": null,
+            "keep": false
+        },
+        "lvLV6Ip7": {
+            "string": "^setDestruct(<cap>)",
+            "filter": null,
+            "keep": false
+        },
+        "BAALJwBq": {
+            "string": "TOO LATE FOR REMEDIAL ACTION. THE CORE HAS BEGUN TO MELT.",
+            "filter": null,
+            "keep": false
+        }
+    },
+    "checksums": {
+        "./chat/main.ss": "ee7d807c25ae02140c0fd6730992451991602c12"
+    },
+    "version": 1
+}
